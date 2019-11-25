@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Venue__c</fullName>
+    <externalId>false</externalId>
+    <label>Venue</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Non-Toastmasters</fullName>
+                <default>false</default>
+                <label>Non-Toastmasters</label>
+            </value>
+            <value>
+                <fullName>Another Toastmasters club</fullName>
+                <default>false</default>
+                <label>Another Toastmasters club</label>
+            </value>
+            <value>
+                <fullName>Evening Stars</fullName>
+                <default>false</default>
+                <label>Evening Stars</label>
+            </value>
+            <value>
+                <fullName>Salesforce IT</fullName>
+                <default>false</default>
+                <label>Salesforce IT</label>
+            </value>
+            <value>
+                <fullName>Salesforce Toastmasters</fullName>
+                <default>false</default>
+                <label>Salesforce Toastmasters</label>
+            </value>
+            <value>
+                <fullName>SF Bilingual Cantonese</fullName>
+                <default>false</default>
+                <label>SF Bilingual Cantonese</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
